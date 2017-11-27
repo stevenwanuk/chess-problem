@@ -1,4 +1,4 @@
-package com.sven.chees.model;
+package com.sven.chess.model;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class ChessBoard {
 	private int width;
 	private List<Piece> pieces;
 
-	public ChessBoard(int height, int width, List<Piece> pieces) {
+	public ChessBoard(final int height, final int width, final List<Piece> pieces) {
 		this.height = height;
 		this.width = width;
 		this.pieces = pieces;
@@ -18,7 +18,7 @@ public class ChessBoard {
 		return height;
 	}
 
-	public void setHeight(int height) {
+	public void setHeight(final int height) {
 		this.height = height;
 	}
 
@@ -26,7 +26,7 @@ public class ChessBoard {
 		return width;
 	}
 
-	public void setWidth(int width) {
+	public void setWidth(final int width) {
 		this.width = width;
 	}
 
@@ -34,7 +34,7 @@ public class ChessBoard {
 		return pieces;
 	}
 
-	public void setPieces(List<Piece> pieces) {
+	public void setPieces(final List<Piece> pieces) {
 		this.pieces = pieces;
 	}
 
